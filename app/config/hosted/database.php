@@ -51,17 +51,28 @@ return array(
 			'database' => __DIR__.'/../database/production.sqlite',
 			'prefix'   => '',
 		),
-
+/*
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'jabcopy_pm',
-			'username'  => 'jabcopy_pmadmin',
-			'password'  => 'pm_admin',
+			'database'  => 'pm',
+			'username'  => 'root',
+			'password'  => 'root',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),
+*/
+                'mysql' => array(
+                        'driver'    => 'mysql',
+                        'host'      => 'localhost',
+                        'database'  => 'resource_management',
+                        'username'  => 'resource_admin',
+                        'password'  => 'Bz9uXCbe7MnmbaX6',
+                        'charset'   => 'utf8',
+                        'collation' => 'utf8_unicode_ci',
+                        'prefix'    => '',
+                ),
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',

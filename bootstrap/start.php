@@ -26,7 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'ignited' => array('pm.ignited.com')
+	'hosted' => array('rm.robdivincenzo.com')
 
 ));
 
