@@ -66,9 +66,9 @@ return array(
                 'mysql' => array(
                         'driver'    => 'mysql',
                         'host'      => 'localhost',
-                        'database'  => 'jabcopy_pm',
-                        'username'  => 'jabcopy_pmadmin',
-                        'password'  => 'pmadmin',
+                        'database'  => 'resource_management',
+                        'username'  => 'resource_admin',
+                        'password'  => 'Bz9uXCbe7MnmbaX6',
                         'charset'   => 'utf8',
                         'collation' => 'utf8_unicode_ci',
                         'prefix'    => '',

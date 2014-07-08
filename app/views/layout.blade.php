@@ -11,7 +11,7 @@
 	<!-- ui stylesheet -->
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.min.css">
 	<!-- custom css -->
-	<link rel="stylesheet" href="/pm/public/css/styles.css" />	
+	<link rel="stylesheet" href="../css/styles.css" />	
 </head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
