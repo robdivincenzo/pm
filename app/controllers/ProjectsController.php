@@ -121,7 +121,7 @@ class ProjectsController extends \BaseController {
 		// read more on validation at http://laravel.com/docs/validation
 		$rules = array(
 			'title'       => 'required',
-			'description'      => 'required',
+			'description'      => '',
 		);
 		$validator = Validator::make(Input::all(), $rules);
 
