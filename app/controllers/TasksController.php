@@ -55,7 +55,7 @@ class TasksController extends \BaseController {
 		// read more on validation at http://laravel.com/docs/validation
 		$rules = array(
 			'title'       => 'required',
-			'description'      => 'required',
+			'description'      => '',
 			'project_id' => 'required|numeric',
 		);
 		$validator = Validator::make(Input::all(), $rules);
