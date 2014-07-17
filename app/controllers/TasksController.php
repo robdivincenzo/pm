@@ -18,6 +18,7 @@ class TasksController extends \BaseController {
 		                     		(CASE WHEN min(resource_task.completed) <> 0 THEN "Yes" ELSE "No" END) as completed'
 		                     	))
 		                     ->leftJoin('resource_task', 'tasks.id', '=', 'resource_task.task_id')
+		                     ->where('resource_task.completed', '=', 'No')
 		                     ->groupBy('resource_task.task_id')
 		                     ->get();
 

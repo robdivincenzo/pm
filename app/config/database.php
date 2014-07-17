@@ -66,9 +66,9 @@ return array(
                 'mysql' => array(
                         'driver'    => 'mysql',
                         'host'      => 'localhost',
-                        'database'  => 'resource_management',
-                        'username'  => 'resource_admin',
-                        'password'  => 'Bz9uXCbe7MnmbaX6',
+                        'database'  => 'pm',
+                        'username'  => 'root',
+                        'password'  => 'root',
                         'charset'   => 'utf8',
                         'collation' => 'utf8_unicode_ci',
                         'prefix'    => '',

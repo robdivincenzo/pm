@@ -49,7 +49,7 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tasks <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li>{{ HTML::link('tasks', 'View Tasks') }}</li>
+								<li>{{ HTML::link('tasks', 'View Incomplete Tasks') }}</li>
 								<li>{{ HTML::link('tasks/create', 'Add Task') }}</li>
 							</ul>
 						</li>
